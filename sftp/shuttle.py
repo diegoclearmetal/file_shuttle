@@ -14,7 +14,6 @@ def newest_files(directory: str):
             else:
                 files.append((full_path, file_time))
     files.sort(key=lambda x: x[1])
-    files.reverse()
     newest_file = files[0]
     return newest_file[0]
 
