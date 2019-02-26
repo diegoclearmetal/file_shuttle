@@ -30,9 +30,9 @@ Here is what the system should do:
      This process watches for new files.  Whenever a new file is added to the directory `home/hello/here`, it kicks off the `/home/ubuntu/shuttle.py` script.  
  * Flask EC2 instance:
    ```
-   Instance ID: i-0948c0221c97039a4
-   Public IP: 34.219.141.195
-   SSH: ssh ubuntu@34.219.141.195
+   Instance ID: i-0d0a410a848ea3c29
+   Public IP: 34.220.204.122
+   SSH: ssh ubuntu@34.220.204.122
    Files:
       - /home/ubuntu:
          Dockerfile
