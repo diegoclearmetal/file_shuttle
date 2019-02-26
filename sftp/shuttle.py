@@ -35,6 +35,7 @@ def send_file(file_path: str):
         'http://34.220.204.122:5000/upload',
         params=post_params,
         files=file,
+        timeout=3.0
     )
     return r.status_code
 
