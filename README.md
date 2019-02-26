@@ -41,7 +41,7 @@ Here is what the system should do:
    ```
    *Description*:
      This is a server running a docker container that serves a Flask 
-      application.  
+      application that runs on port `5000`
    *Processes running*:
    `sudo docker run -d flask_api:latest python3 app.py`
 
