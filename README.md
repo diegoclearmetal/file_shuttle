@@ -26,7 +26,7 @@ Here is what the system should do:
    They can then upload files into the `here` directory.  
 
    *Processes running*:
-   `sudo -E nohup bash watch_dir.sh &`                 
+   `sudo nohup bash watch_dir.sh &`                 
      This process watches for new files.  Whenever a new file is added to the directory `home/hello/here`, it kicks off the `/home/ubuntu/shuttle.py` script.  
  * Flask EC2 instance:
    ```
