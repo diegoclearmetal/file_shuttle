@@ -15,6 +15,10 @@ Here is what the system should do:
    Instance ID: i-0948c0221c97039a4
    Public IP: 34.219.141.195
    SSH: ssh ubuntu@34.219.141.195
+   Files:
+      - /home/ubuntu:
+         watch_dir.sh
+         shuttle.py
    ```
    *Description*:
      This server is an SFTP server.  A user can connect to it by running:
@@ -22,13 +26,18 @@ Here is what the system should do:
    They can then upload files into the `here` directory.  
 
    *Processes running*:
-   `sudo -E nohup bash watch_dir.sh &`                 
+   `sudo nohup bash watch_dir.sh &`                 
      This process watches for new files.  Whenever a new file is added to the directory `home/hello/here`, it kicks off the `/home/ubuntu/shuttle.py` script.  
  * Flask EC2 instance:
    ```
    Instance ID: i-0948c0221c97039a4
    Public IP: 34.219.141.195
    SSH: ssh ubuntu@34.219.141.195
+   Files:
+      - /home/ubuntu:
+         Dockerfile
+         app.py
+         requirements.txt
    ```
    *Description*:
      This is a server running a docker container that serves a Flask 
