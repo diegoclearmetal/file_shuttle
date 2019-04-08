@@ -13,8 +13,8 @@ Here is what the system should do:
  * SFTP EC2 instance:
    ```
    Instance ID: i-0948c0221c97039a4
-   Public IP: 34.219.141.195
-   SSH: ssh ubuntu@34.219.141.195
+   Public IP: 54.71.233.17
+   SSH: ssh ubuntu@54.71.233.17
    Files:
       - /home/ubuntu:
          watch_dir.sh
@@ -31,8 +31,8 @@ Here is what the system should do:
  * Flask EC2 instance:
    ```
    Instance ID: i-0d0a410a848ea3c29
-   Public IP: 34.220.204.122
-   SSH: ssh ubuntu@34.220.204.122
+   Public IP: 34.213.81.141
+   SSH: ssh ubuntu@34.213.81.141
    Files:
       - /home/ubuntu:
          Dockerfile
