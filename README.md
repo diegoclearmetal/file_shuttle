@@ -22,7 +22,7 @@ Here is what the system should do:
    ```
    *Description*:
      This server is an SFTP server.  A user can connect to it by running:
-   `sftp hello@34.219.141.195`
+   `sftp hello@54.71.233.17`
    They can then upload files into the `here` directory.  
 
    *Processes running*:
